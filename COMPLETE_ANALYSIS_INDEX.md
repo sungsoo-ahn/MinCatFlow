@@ -20,6 +20,9 @@ This repository now contains comprehensive analysis of all issues affecting mode
 → **claude.md** - Complete project documentation
 → **DNG_MASK_BUG_EXPLAINED.md** - Deep dive on the worst bug
 
+### For Algorithmic Improvements
+→ **ALGORITHMIC_IMPROVEMENTS.md** - Recent literature and recommended improvements
+
 ---
 
 ## 📊 Issue Statistics
@@ -170,6 +173,20 @@ This repository now contains comprehensive analysis of all issues affecting mode
 
 ---
 
+### ALGORITHMIC_IMPROVEMENTS.md
+**Purpose**: Literature review with algorithmic improvements
+**Contents**:
+- Recent advances in discrete flow matching (2024-2025)
+- CrystalFlow, FlowMM, and other state-of-the-art methods
+- 9 prioritized recommendations (Tier 1-3 by effort/impact)
+- Implementation roadmap with expected improvements
+- Code examples for each improvement
+- Key papers and resources
+
+**Use when**: You want to improve model beyond fixing bugs, incorporate latest research
+
+---
+
 ## 🚀 Recommended Action Plan
 
 ### Phase 1: Critical Fixes (30 min)
@@ -275,6 +292,13 @@ After applying fixes, verify:
 2. DNG_MASK_BUG_EXPLAINED.md for case study
 3. claude.md for architecture
 4. ADDITIONAL_ISSUES.md for completeness
+5. ALGORITHMIC_IMPROVEMENTS.md for state-of-the-art methods
+
+### Research-Focused (Push beyond current implementation)
+1. Fix all critical bugs first (DEBUGGING_SUMMARY.md)
+2. ALGORITHMIC_IMPROVEMENTS.md for literature review
+3. Implement Tier 1 improvements (quick wins)
+4. Consider Tier 2-3 for major performance gains
 
 ---
 
@@ -316,11 +340,12 @@ The bugs are mostly configuration mismatches and overlooked details, not fundame
 ---
 
 **Last Updated**: 2026-01-06
-**Total Analysis Time**: ~4 hours
-**Documents Created**: 6
+**Total Analysis Time**: ~5 hours
+**Documents Created**: 7
 **Issues Found**: 29
 **Critical Issues**: 5
-**Lines of Analysis**: ~2500
+**Lines of Analysis**: ~3200
+**Algorithmic Improvements Identified**: 9
 
 ---
 
@@ -345,8 +370,10 @@ The bugs are mostly configuration mismatches and overlooked details, not fundame
 - [All Flow Bugs](FLOW_MATCHING_BUGS.md#-critical-bugs)
 - [All Config Issues](PERFORMANCE_ANALYSIS.md#-critical-issues)
 - [Additional Issues](ADDITIONAL_ISSUES.md#-moderate-issues)
+- [Algorithmic Improvements](ALGORITHMIC_IMPROVEMENTS.md#-prioritized-recommendations)
 - [Project Docs](claude.md)
 
 ---
 
 **Ready to fix your model? Start with [DEBUGGING_SUMMARY.md](DEBUGGING_SUMMARY.md)!**
+**Want to improve beyond fixes? See [ALGORITHMIC_IMPROVEMENTS.md](ALGORITHMIC_IMPROVEMENTS.md)!**
